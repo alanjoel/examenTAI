@@ -11,8 +11,8 @@ import { Usuario } from './usuario';
 export class AppComponent {
   
   clienteLista:Persona[]=[];
-  @ViewChild(PersonaComponent) persona;
-  @ViewChild(UsuarioComponent) usuario;
+  @ViewChild(PersonaComponent,{static:false}) persona;
+  @ViewChild(UsuarioComponent,{static:false}) usuario;
 
   registrar()
 	{

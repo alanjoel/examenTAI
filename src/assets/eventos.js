@@ -5,6 +5,7 @@ var em=0;
 var eb=0;
 var el=0;
 var general=0;
+
 function conteoMelgarejo(e) {
 melgarejo++;
 em=em+3.3;
